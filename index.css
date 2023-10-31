@@ -4,9 +4,9 @@
 }
 .header {
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 80px;
-  background-color: rgb(16, 16, 16);
+  background-color: #0C0C0C;
   justify-content: space-between;
   display: flex;
 }
@@ -20,67 +20,20 @@
   padding-right: 12pt;
 }
 .nav_human_logo {
-  height: 24px;
-  color: rgb(241, 242, 242);
+  height: 50px;
   padding-left: 12pt;
 }
 .nav_logo {
-  width: 30px;
-  height: 30px;
-}
-.nav_cycles_text {
-  font-size: 26pt;
-  font-family: Futura;
-  font-weight: bold;
-  color: rgb(241, 242, 242);
-  text-decoration: none;
-  margin-bottom: 8px;
-}
-.right-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-right: 12pt;
-}
-.right-nav i {
-  display: none;
-}
-.nav-links {
-  align-items: center;
-  display: flex;
-  height: 80px;
-}
-.nav-links a {
-  display: flex;
-  color: rgb(241, 242, 242);
-  text-decoration: none;
-  font-size: 10pt;
-  font-family: Futura;
-  font-weight: bold;
-  padding: 6pt;
-}
-.nav-links a:hover {
-  color: grey;
-}
-.nav_apple {
-  width: 90px;
-  height: 35px;
-}
-.sidemenu {
-  display: none;
-}
-.sidemenu-links {
-  display: none;
+  height: 40px;
 }
 .section1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content:space-evenly;
-  width: 100%;
+  width: 100vw;
   height: 2100px;
-  /* background-color: rgb(241, 242, 242); */
-  background-color: rgb(19, 19, 19);
+  background-color: #0C0C0C;
 }
 .product1 {
   padding-left: 12pt;
@@ -121,14 +74,6 @@ hr.rounded1 {
   border-top: 3px solid #bbb;
   border-color: rgb(12, 12, 12);
 }
-/* .section2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 1000px;
-  background-color: rgb(19, 19, 19);
-} */
 .product2 {
   padding-left: 12pt;
   padding-right: 12pt;
@@ -163,9 +108,9 @@ hr.rounded1 {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 1450px;
-  background-color: rgb(13, 13, 13);
+  background-color: #0C0C0C;
 }
 .product3 {
   padding-left: 12pt;
@@ -256,36 +201,6 @@ hr.rounded {
 .inputButton:hover {
   background-color: #1e922d;
 }
-.section4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 250px;
-  background-color: rgb(16, 16, 16);
-  position: relative;
-}
-.bottom-nav {
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.bottom-nav-logo {
-  margin-left: 6.5%;
-  display: flex;
-  height: 80px;
-}
-.bottom-nav_cycles_text {
-  display: flex;
-  margin-top: 5px;
-  font-size: 24pt;
-  font-family: Futura;
-  font-weight: bold;
-  color: rgb(241, 242, 242);
-  text-decoration: none;
-}
 hr.rounded2 {
   height: 160px;
   border: 2px solid #bbb;
@@ -293,121 +208,13 @@ hr.rounded2 {
   margin-left: 40px;
   margin-right: 40px;
 }
-.bottom-nav-links {
-  align-items: center;
-  padding-right: 12px;
-}
-.bottom-nav-links a {
-  display: flex;
-  color: white;
-  text-decoration: none;
-  font-size: 8pt;
-  font-family: Futura;
-  font-weight: bold;
-  padding: 2pt;
-}
-.bottom-nav-links a:hover {
-  color: grey;
-}
-.bottom-nav-apple {
-  width: 90px;
-  height: 35px;
-}
 hr.rounded3 {
   width: 99%;
   border-top: 2px solid #bbb;
   border-color: rgb(24, 24, 24);
 }
-.bottom-nav-text {
-  margin-top: 15px;
-  color: white;
-  font-size: 9pt;
-  font-family: SF Pro Text;
-  font-weight: 300;
-}
 
 @media only screen and (max-width: 1200px) {
-  .nav-links {
-    display: none;
-  }
-  .right-nav i {
-    display: block;
-    font-size: 16pt;
-  }
-  .fa {
-    color: white;
-    padding-top: 3pt;
-    padding-left: 12pt;
-  }
-  .fa:hover {
-    color: grey;
-  }
-  .sidemenu {
-    text-align: left;
-    right: 0;
-    top: 0;
-    padding-top: 20pt;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    width: 180pt;
-    height: 100%;
-    background-color: rgb(20, 20, 20);
-  }
-  .sidemenu-links {
-    padding-top: 12pt;
-    display: flex;
-    flex-direction: column;
-    padding-left: 6pt;
-  }
-  .sidemenu-links a {
-    display: flex;
-    flex-direction: column;
-    padding-left: 12pt;
-    color: rgb(241, 242, 242);
-    text-decoration: none;
-    font-size: 10pt;
-    font-family: Futura;
-    font-weight: bold;
-    padding: 6pt;
-  }
-  .sidemenu-links a:hover {
-    color: grey;
-  }
-  .menu-icon {
-    display: block;
-    color: white;
-    width: 15pt;
-    height: 15pt;
-  }
-  .menu-icon:before,
-  .menu-icon:after,
-  .menu-icon div {
-    background: #fff;
-    content: "";
-    display: block;
-    height: 2px;
-    border-radius: 3px;
-    margin: 5px 0;
-  }
-  .sidemenu-icon {
-    align-self: flex-end;
-    padding-right: 12pt;
-    display: block;
-    color: white;
-    width: 15pt;
-    height: 15pt;
-  }
-  .sidemenu-icon:before,
-  .sidemenu-icon:after,
-  .sidemenu-icon div {
-    background: #fff;
-    content: "";
-    display: block;
-    height: 2px;
-    border-radius: 3px;
-    margin: 5px 0;
-  }
   .section1 {
     height: 1000px;
   }
@@ -490,105 +297,16 @@ hr.rounded3 {
     padding-left: 12pt;
     padding-right: 10pt;
   }
-  .bottom-nav-apple {
-    width: 70px;
-    height: 25px;
-  }
 }
 
 
 @media only screen and (max-width: 430px) {
-  .nav-links {
-    display: none;
-  }
   .nav_human_logo {
     display: none;
   }
   .nav_logo {
     width: 20px;
     height: 20px;
-  }
-  .nav_cycles_text {
-    font-size: 14pt;
-    margin-bottom: 5px;
-  }
-  .right-nav i {
-    display: block;
-    font-size: 12pt;
-  }
-  .fa {
-    color: white;
-    padding-top: 3pt;
-    padding-left: 12pt;
-  }
-  .fa:hover {
-    color: grey;
-  }
-  .sidemenu {
-    text-align: left;
-    right: 0;
-    top: 0;
-    padding-top: 20pt;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    width: 120pt;
-    height: 100%;
-    background-color: rgb(20, 20, 20);
-  }
-  .sidemenu-links {
-    padding-top: 12pt;
-    display: flex;
-    flex-direction: column;
-    padding-left: 6pt;
-  }
-  .sidemenu-links a {
-    display: flex;
-    flex-direction: column;
-    padding-left: 12pt;
-    color: rgb(241, 242, 242);
-    text-decoration: none;
-    font-size: 8pt;
-    font-family: Futura;
-    font-weight: bold;
-    padding: 6pt;
-  }
-  .sidemenu-links a:hover {
-    color: grey;
-  }
-  .menu-icon {
-    display: block;
-    color: white;
-    width: 8pt;
-    height: 8pt;
-  }
-  .menu-icon:before,
-  .menu-icon:after,
-  .menu-icon div {
-    background: #fff;
-    content: "";
-    display: block;
-    height: 1px;
-    border-radius: 2px;
-    margin: 3px 0;
-  }
-  .sidemenu-icon {
-    align-self: flex-end;
-    padding-right: 12pt;
-    display: block;
-    color: white;
-    width: 8pt;
-    height: 8pt;
-  }
-  .sidemenu-icon:before,
-  .sidemenu-icon:after,
-  .sidemenu-icon div {
-    background: #fff;
-    content: "";
-    display: block;
-    height: 1px;
-    border-radius: 2px;
-    margin: 3px 0;
   }
   .section1 {
     height: 780px;
