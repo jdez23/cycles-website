@@ -1,2 +1,2 @@
 # cycles-website
-Landing website for Cycles app.
+Landing website for Cycles app. HTML/CSS, JS
